@@ -1,0 +1,108 @@
+06/12/2022 - Reiniciando HTML OBC
+
+Introdução a Web.
+
+*O que é a Web e como ela funciona;
+*o que é Frontend, BackEnd e Full Stack;
+*O que é HTML5  e como utilizá-lo;
+*O que é CSS3 e como utilizá-lo;
+*O que é Bulma e como utilizá-lo;
+*Como desenvolver um portfólio com Bulma;
+
+**O que é a Web e como ela funciona**
+
+<Servidor WEB:>
+	>É um software que fica instalado em um computador na rede e serve para receber as requisições de um Browser e responder com os arquivos correspondentes ao site solicitado (que em geral são páginas criadas com Html, CSS e JavaScript e alguns recursos como imagens, áudios e vídeos).
+
+<HTTP:>
+	>Protocolo Http (Hypertext Transfer Protocol) é uma espécie de idioma utilizado para que o cliente Web (geralmente um Browse) e o servidor web se entendam. Cada um dos outros ipos de servidores WEB utiliza um protocolo diferente.
+
+Servidores WEB relacionado aos sites: 
+	>Apache;
+	>Nginx.
+
+Outros protocolos: 
+		>SMTP - recebimento e envio de e-mails;
+		>FTP - recebimento e download de arquivos;
+
+<Endereço IP:>
+	>Endereço de protocolo da internet (internet protocol addres (ip address)) é um rótulo numérico atribuído a cada dispositivo (computador, impressora, smartphone etc.) conectado a uma rede de computadores que utiliza o Protocolo de internet para comunicação.
+
+Um endereço IP serve a duas funções principais: 
+	>Identificação de interface de hospedeiro ou de rede;
+	>Endereçamento de localização.
+
+<DNS:>
+	>Sistema de nomes de Domínio (Domain Name System), é um sistema hierárquico e distribuido de gestão de nomes para computadores, serviços ou qualquer máquina conectada à internet ou a uma rede privada. Faz a associação entre várias informações atribuídas a nomes de domínios e cada entidade participante.
+		
+		>A sua utilização mais convencional associa nomes de domínios mais facilmente memorizáveis a endereços IP numéricos, necessários à localização e identificação de serviços e dispositivos, processo esse denominado por: "resolução por nome".
+
+*Após descobrir o IP correto do servidor na rede, o browser vai então solicitar a árvore de arquivos relacionas a aquele site digitado ao servidor WEB. 
+		
+		>Site estático: devolverá arquivos pré existentes;
+		>Site dinâmico: o servidor solicitará para um outro software (ex: nodeJS) a geração dessas paginas dinâmicas.
+
+
+**Dev. Front End, Back End e Full Stack**
+
+	>Frontend: é o responsável pela ciração da interface do site com o usuário, geralmente usando HTML, CSS e Javascript;
+
+	>Backend: em geral é o responsável por desenvolver a estrutura do site que não é apresentada ao usuário, por exemplo a parte que acessa o banco de dados, processa as regras de negócio e interage com os outros serviços.
+		>É comum utilizarmos no backend linguagens de programação como Javascript, Ruby e Python e frameworks como NodeJS, Ruby on Rails e Django.
+
+	>Fullstack: consegue desenvolver tanto o frontend como o backend, podendo atuar no ciclo completo de desenvolvimento de um site.
+
+**Módulo HTML**
+
+<Objetivos:>
+	>compreender o que é e como funciona o HTML;
+	>aprender a usar os principais elementos do HTML;
+	>compreender o funcionamento dos forms;
+	>conhecer as novidades do HTML5;
+	>aprender a organizar os códigos;
+	>criar um site do zero baseado em um mockup.
+
+Conhecendo o HTML: 
+
+<O que é?> 
+>É uma linguagem de marcação de hipertexto utilizada para a criação de páginas WEB.
+	>Hipertextos se referem aos links nas páginas que podem conectar a outros documentos no mesmo site ou em outro site, os links são um aspecto fundamental da Web, é o que conecta tudo.
+
+<Como surgiu?>
+>Foi criado entre 1989 e 1990 para o compartilhament ode pesquisas cientificas entre Tim Berners-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho;
+	>Se popularizou com o inicio da internet.
+
+<O Html é baseado em Tags:>
+<tag> conteudo da tag </fechaTag>
+exemplo: <p> Hello World </p> (tag de parágrafo e retornará "Hello World".
+
+<Estrutura de uma página Web:>
+
+<!DOCTYPE html>
+<html> -> tag root, todos os elementos devem estar dentro desta tag.
+<head> -> vinculada a metadados, informações enviadas ao browser.
+  <title>Título da página(aba do navegador) e também do google</title>
+</head>
+<body> -> todo o conteúdo da página deve ficar aqui dentro;
+  <h1>Título principal do documento</h1>
+  <p>Parágro a ser inserigo na tag</p>
+</body>
+</html>
+
+Link para documentação do HTMl básico:
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+**Tags básicas do HTML** 
+
+
+
+
+
+
+
+
+
+
+
+
+
