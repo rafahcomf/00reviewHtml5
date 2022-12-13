@@ -94,8 +94,67 @@ https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML
 
 **Tags básicas do HTML** 
 
+anotações de tags básicas do html foram feitas no VScode, já criando um arquivo tags-index.html
+
+12/12/2022
+
+**Listas no HTML**
+
+Existem listas ordenadas <ol> e listas não ordenadas no HTML<ul>.
+As listas ordenadas seguem uma sequência numérica, e as listas não ordenadas, são listadas com "bullets points", sendo que estes podem ser alterados em sua forma gráfica.
+
+Lista ordenada:        Lista não ordenada:
+1 Mercúrio			* Jupiter
+2 Venus			* Saturno
+3 Terra			* Marte
+4 Marte			* Urano
+5 Jupiter			* Netuno
+
+Criando Listas na prática: Feito no VScode.
+
+***ATALHO!!***
+Para criar listas, já com seus sub-itens sem precisar digitar tudo, podemos usar o atalho, tendo como exemplo a lista NÃO ordenada:
+	
+ul>li*6 + enter, cria a seguinte estrutura:
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>	
+
+Para utilizar o atalho com listas que contenham configuração Strong para determinada parte do texto:
+
+ul>li*7>strong + enter, cria a seguinte estrutura:
+
+	<ul>
+        <li><strong>Texto negrito:</strong>Texto padrão.</li>
+        <li>Texto padrão, <strong>texto negrito, </strong>texto padrão.</li>
+        <li>Texto padrão, <strong>texto negrito.</strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+        <li><strong></strong></li>
+      </ul>
 
 
+
+Esse tipo de atalho pode ser aplicado a diversas tags que tem em sua estrutura, multiplos sub-itens, agilizando na construção do código no Vscode.
+
+É possivel também, inserir uma sublista, dentro do "item" de uma lista. (listas aninhadas)
+No exercicio de listas, as listas estão agrupadas, com sub-listas dentro de listas, todas não ordenadas.
+
+12/12/2022
+
+**Organizando os códigos com Divs e Span.**
+
+A <div> é normalmente utilizada em volta de um bloco de códigos, sendo utilizada para ocupar o maior espaço de tela possível, dentro do editor, da esquerda para a direita. É um elemento de bloco e sempre inicia em uma nova linha e serve para separar blocos maiores de código.
+
+O <span> é diferente. 
+Nem sempre ele começa em uma nova linha e só atribui o espaço necessário, pode ser utilizado para aplicação de estilo em uma área parcial de texto. 
 
 
 
