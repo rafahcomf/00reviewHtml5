@@ -149,16 +149,165 @@ No exercicio de listas, as listas estão agrupadas, com sub-listas dentro de lis
 
 12/12/2022
 
-**Organizando os códigos com Divs e Span.**
+**Organizando os códigos com Divs e Span.** (**Atenção, são elementos não semânticos e estão caindo em desuso**)
 
 A <div> é normalmente utilizada em volta de um bloco de códigos, sendo utilizada para ocupar o maior espaço de tela possível, dentro do editor, da esquerda para a direita. É um elemento de bloco e sempre inicia em uma nova linha e serve para separar blocos maiores de código.
+**mais utilizada para marcação de container genérico**
 
 O <span> é diferente. 
 Nem sempre ele começa em uma nova linha e só atribui o espaço necessário, pode ser utilizado para aplicação de estilo em uma área parcial de texto. 
 
+**14/12/2022**
+
+Apêndice:
+
+***ELEMENTOS SEMANTICOS DO HTML5***
+Pesquisar mais em: 
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+O que é Semântica?
+Semântica é o estudo do significado das palavras e frases em um idioma.
+
+O que são Elementos Semânticos?
+São elementos com um significado.
+São Tags mais semanticas que, ao ler, já se entende o que o "programador" quis fazer com estes elementos.
+
+Alguns elementos semânticos:
+
+
+<header> Tudo o que fica no topo do site, cabeçalho da página, logotipo ou icone e informações de autoria.</header>
+**segundo o w3schools o header pode ser usado também dentro de um <article> para definir seu titulo e chamada**
+
+<nav> Barra com links de navegação, menus.</nav>
+**nem todos os lins de um documento devem estar dentro do <nav>. O elemento <nav> destina-se apenas aos principais blocos de links de naveção. Navegadores como leitores de tela para usuários desativados, podem usar esse elemento para determinar se devem omitir a renderização inicial deste conteúdo.**
+
+<aside> Pequenos textos na lateral do site, em um quadrante.</aside>
+**o conteúdo inserido em <aside> deve estar indiretamente relacionado ao conteúdo circundante, como um apendice, explicando sobre um local que foi mencionado no conteúdo "principal.**
+
+<section>Define a seção de um documento.</section>
+**Não existem definições em regras ou convenções para uso de <section> e <article>, porém existe o entendimento de que o <section> é uma versão mais semântica da <div>. Pensando na semântica, uma <section> será um elemento que não faria sentido por si só, se retirado do restante do contexto. Cada <section> deve ser identificado, geralmente incluindo um cabeçalho <h1> - <h6> como um filho do elemento. Não se deve usar usar como um container genérico, para isso usamos a <div>.**
+
+
+<article> Um artigo isolado, textos, publicações de forum, posts de blogs, artigos de News. </article>
+**pode ser um conteúdo dependente ou indenpente do restante do site. Um artico deve fazer sentido por si só e deve ser possível distribui-lo idenpendentemente do restante do site.**
+
+<footer> Rodapé da página </footer>
+
+elementos não semanticos, exmeplo: <div> e <span>: não dizem nada sobre seu conteúdo;
 
 
 
+13/12/2022
+
+**Atributos HTML**
+
+Existem tags que abrem na esquerda e fecham na direita, exemplo:
+
+<p>Parágrafo</p> ou <tag name="valor"></tag>; (name="valor" são os atributos da tag.)
+
+Existem tag que não necessitam de fechamento, exemplo:
+<br> (breakline)
+<hr> (linha horizontal) 
+
+exemplo de atributos, como link e imagem:
+
+<a href="https://escoladejavascript.com">Clique aqui</a> sendo href="..." um atributo;
+
+**Para abrir o link em uma nova guia, utilizamos também o atributo target="_blank", da seguinte forma:
+
+<a target="_blank" href="...endereço link...">Clique aqui</a>;
+tag a = anchor.
+
+<img src="img/example.png> que não necessita de fechamento, sendo src="..." um atributo;
+
+**Normalmente, ao inserirmos a tag img com o atributo src="..." o atributo alt="..." entra junto para ser preenchido e é importante preenche-lo com uma descrição breve e exata da imagem a ser usada pois, ele será exibido caso a imagem não abra.
+
+Ao usar imagens, ela podem ser hospedadas localmente ou em um servidor de livre acesso na internet, como google, wikipédia e afins.
+
+Para saber mais sobre os atributos, podemos procurar na documentação do MDN ou do W3SCHOOLS.
+
+Para linkar paginas entre si, utilizamos o mesmo processo, sempre apontando no texto do link, para onde o usuário será direcionado.
+Neste caso do exercicio, como ambos arquivos estão na mesma pasta, em um "servidor local", ou seja, nosso computador, não é necessário inserir um hiperlink de web, bastando apenas inserir o nome do arquivo, que neste exemplo são:
+saturno.html e tita.html.
+
+
+14/12/2022
+
+**Exercicio atributos HTML**
+
+Descrição do exercicio:
+
+Criar um "guia de Galáxias com 3 páginas e links entre eles, usando também os atributos, divs e afins.
+Vou tentar utilizar também o HTML semântico, para praticar.
+
+Textos para o exericio:
+
+​Andrômeda
+
+Guia das galáxias
+Galáxia de Andromeda
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg
+
+
+Descrição
+A galáxia de Andrômeda (Messier 31, NGC 224) é uma galáxia espiral localizada a cerca de 2,54 milhões de anos-luz de distância da Terra, na direção da constelação de Andrômeda.
+
+
+Dados Interessantes
+
+
+  Além da Via Láctea, é a galáxia mais estudada
+  Suas duas galáxias satélite, Messier 32 e Messier 110, são visíveis em binóculos
+  Sua distância em relação à Terra ainda não foi bem definida
+
+
+Outras galáxias: Olho Negro, Grande Nuvem de Magalhães
+
+Olho Negro
+
+​Guia das galáxias
+Olho Negro
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Blackeyegalaxy.jpg/280px-Blackeyegalaxy.jpg
+
+
+Descrição
+A galáxia do Olho Negro (Messier 64, NGC 4826) é uma galáxia espiral localizada a aproximadamente dezessete milhões de anos-luz (cerca de 5,2 megaparsecs) de distância na direção da constelação da Cabeleira de Berenice.
+
+
+Dados Interessantes
+
+
+  Os cientistas acreditam na hipótese de que ela seja o resultado da colisão entre duas galáxias.
+  A galáxia espiral foi descoberta por Edward Pigott em 23 de março de 1779
+  Pode ser vista com bons binóculos
+
+
+Outras galáxias: Andromeda, Grande Nuvem de Magalhães
+
+Pequena Nuvem de Magalhães
+
+Guia das galáxias
+Grande Nuvem de Magalhães
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Large.mc.arp.750pix.jpg/250px-Large.mc.arp.750pix.jpg
+
+
+Descrição
+Grande Nuvem de Magalhães (comumente abreviada como LMC, do inglês Large Magellanic Cloud) é uma galáxia anã
+  satélite que orbita em torno da Via Láctea.
+
+
+Dados Interessantes
+
+
+  É rica em gases e poeira
+  Foi batizada por Fernão de Magalhães
+  A Grande Nuvem de Magalhães é uma das galáxias mais próximas da Via Láctea
+
+
+Outras galáxias: Andromeda, Olho negro
+
+**ANTES DE SEGUIR COM MAIS AULAS, FAZER UM GUIA COM AS 3 GALÁXIAS EM UMA SÓ PAGINA, REDIRECIONANDO EM LINK PARA A WIKIPÉDIA, OU ATENTAR NAS PROXIMAS AULAS PARA INSERIR MAIS ELEMENTOS.**
 
 
 
