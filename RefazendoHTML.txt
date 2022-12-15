@@ -360,6 +360,69 @@ Satélites e anéis - 0,000 05%
 Asteroides - 0,000 000 2%
 Meteoritos e poeira - 0.000 000 1% (?)
 
+Exercicio foi feito corretamente, apenas o <h3> estava dentro do <table> e deve ser fora.
+
+**Conhecendo o forms**
+Forms são campos que recebem as entradas dos usuários.
+São formulários de login, cadastro, ou tweet, que também é um formulário.
+O Form é muito importante para submeter informações, tal qual os links para navegação web.
+
+<Elementos importantes de um form>
+<form> </form> que são as tags principais e todos os elementos de um form devem estar dentro dela.
+
+<input type="text"> são onde são preenchidos os textos de um form, como nome de usuário;
+<input type="radio"> 	Exibe botões de seleção, aqueles "redondos" normalmente 				usados para "masculino e feminio"
+<input type="checkbox">	Exibe caixas de selção;
+<input type="submit">	Exibe um botão de submeter;
+<input type="button">	Exibe um botão "clicável".
+
+Atributos:
+action - esse atributo action é onde estará a url do servidor que será enviado o form:
+<form action="action_page.php"> que pode estar no mesmo projeto ou em um projeto separado, podendo ser uma url externa.
+
+Quem recebe as informações do Form?
+As requisições e informações do Form é o back end, que faz a alterações em banco de dados ou envio de e-mail, rodando "por baixo".
+
+Criando um form de pesquisa no google, na prática:
+
+Encontre no google: (titulo)
+<label for "q">Texto</label> a tag <label> é uma tag de texto associada a um input, ou seja: voce clica no texto de "chamada" de um campo e o cursor vai para o campo de preenchimento.
+
+o Label for Q significa query, que é o que mais vamos usar em uma busca. 
+
+Estrutura:
+
+    <section>
+        <h3>Encontre no Google.</h3>
+        <form action="https://www.google.com/search" target="_blank">
+            <label for="q">O que deseja pesquisar?</label>
+            <input type="text" id="q" name="q" placeholder="Digite aqui sua pesquisa.">
+            <input type="submit" value="Pesquisar!">
+        </form>
+    </section>
+
+Estrutura comentada:
+
+    <section>
+        <h3>Encontre no Google.</h3>
+        <form action="https://www.google.com/search" target="_blank">
+		**o url dentro do atributo action indica para onde os inputs serão enviados. Pode ser em um servidor interno ou externo, dependendo do tipo de projeto.
+		  Aqui, usamos o encaminhamento já com o input, com uma resposta do google a pesquisa feita.
+		**o target="_blank" funciona como nos links de página, abrindo a pesquisa em uma nova aba e não na aba utilizada pelo form.
+
+            <label for="q">O que deseja pesquisar?</label>
+		**a tag <label> indica que o texto está associado a um input, o que define que se o usuário clicar no texto, o cursor ira para o campo de preenchimento do 		  form
+
+            <input type="text" id="q" name="q" placeholder="Digite aqui sua pesquisa.">
+		** type="text" se refere ao input de preenchimento do form, id="q" name="q" ainda iremos ver, mas são os parametros de pesquisa do google.
+		** placeholder="..." é o texto que aparece dentro do campo de pesquisa, apontando ao usuário, alem do cursor, onde ele deve digitar.
+
+            <input type="submit" value="Pesquisar!">
+		** type="subit" é o botão de submeter a pesquisa;
+		** value="..." altera o que aparecerá escrito no botão para o usuário e, quanto mais explicito, melhor.
+		
+        </form>
+    </section>
 
 
 
