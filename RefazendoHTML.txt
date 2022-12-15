@@ -309,6 +309,59 @@ Outras galáxias: Andromeda, Olho negro
 
 **ANTES DE SEGUIR COM MAIS AULAS, FAZER UM GUIA COM AS 3 GALÁXIAS EM UMA SÓ PAGINA, REDIRECIONANDO EM LINK PARA A WIKIPÉDIA, OU ATENTAR NAS PROXIMAS AULAS PARA INSERIR MAIS ELEMENTOS.**
 
+15/12/22
+**Nota!**
+Vendo a correção do exercicio de guia das galáxias, ficou claro que não precisa usar o <p> antes de um <h1> - <h6> pois a tag <h> já trata de pular linha tanto acima quanto abaixo do titulo.
+corrigido em código, falta subir o commit.
+
+também foi adicionado ao comentário na tag <nav> que poderia ter sido feito com um <h4>, desde que todo o bloco de links estiivesse dentro do <h4>.
+Foi corrigido no Vscode.
+Sempre atentar nisso e tentar se não der certo.
+
+<Criando tabelas>
+TAG <table>
+<border> atributo, cria a borda em volta da tabela e de suas celulas;(normalmente é feito pelo css, mas no momento, utilizaremos direto no HTML);
+<tr> table row, cria as linhas da tabela;
+<thead> separa o titulo da tabela do restante dela, ou seja, o <th> deve sempre ser tag filho do <thead>, apos o <tr>.
+<th> table head, cria a linha de titulos da tabela, deve ficar dentro do <thead>; (como se criasse as colunas)
+<tbody> tag que separa o corpo da tabela, ou seja, todos os que forem celulas do corpo da tabela, devem estar dentro dele.
+<td> elemento de "célula";
+<caption> centraliza o titulo geral da tabela acima dela, podendo ser usado com as tags <h> ou não.
+
+Estrutura:
+
+<table border="1">
+	<thead>
+		<tr>
+			<th>titulo 1</th>
+			<th>titulo 2</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>elemento 1</td>
+			<td>elemento 2</td>
+		</tr>
+	</tbody>
+</table>
+
+Exercicio: Criando tabela.
+Criar uma tabela correspondente à mostrada em aula, imagem salva na pasta.
+
+Texto:
+Massas no sistema solar:
+Componente / Massa
+Sol - 99,85%
+Júpiter - 0,10%
+Demais Planetas - 0,04%
+Cometas - 0,01% (?)
+Satélites e anéis - 0,000 05%
+Asteroides - 0,000 000 2%
+Meteoritos e poeira - 0.000 000 1% (?)
+
+
+
 
 
 
