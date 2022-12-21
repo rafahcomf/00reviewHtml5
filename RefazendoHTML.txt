@@ -424,6 +424,52 @@ Estrutura comentada:
         </form>
     </section>
 
+16/12/2022
+**Validação de Forms**
+(validação de regras, não do backend)
+
+O que são validações?
+São uma maneira de garantir que os dados inserios estão seguindo a norma para aquele campo.
+
+Por exmplo, nos campos de pesquisar, utilizar o parâmetro required, para que o campo de pesquisa seja obrigatoriamente preenchido.
+
+o parametro type="email" apesar de ser um parametro, com o required também é referente a validação pois, se nao for digitado um endereço de e-mail, o usuário não consegue dar sequência.
+
+Minimo e máximo também são padrões de validação no front end.
+Usando como parâmentro o type="number", é possível utilziar um minimo e máximo a ser preenchido, após o placeholder, min="..." max="...".
+
+autocomplete="off" também é uma forma de validação, informando ao HTML que o campo com este parâmetro não deve ser auto-completado.
+
+Verificar outras formas de validação no w3Schools.
+
+verificar o datalist também.
+
+**Aprofundando nos inputs**
+<input type="radio" name="gender" value="male" checked> Male
+para o input "radio" é importante usar em todos, o mesmo name, neste caso "gender", pois é por este parâmetro que o backend processará a requisição;
+Neste tipo de input, somente uma opção poderá ser selecionada;
+
+<input type="checkbox" name="vehicle1" value="bike"> I have a bike
+no input checkbox, os parâmetros devem ser configurados de acordo com a descrição e, diferente do radio, mais de uma opção pode ser selecionada.
+
+<input type="date" name="bday">
+Abre um dropdown de calendário, podendo também ser inserida a data.
+
+<input type="search" name="googlesearch">
+Input de pesquisa;
+
+Exercicio: Criando meu primeiro form.
+Criar um form semelhante ao mostrado na aula.
+Imagem de exemplo salva na pasta referente. 
+
+
+
+
+
+
+
+
+
 
 
 

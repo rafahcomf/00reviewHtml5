@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio forms-Cadastro.</title>
+</head>
+
+<body>
+    <header>
+        <h3>Cadastro da Liga dos Astronautas</h3>
+    </header>
+
+    <section>
+        <div>
+            <form action="">
+                <label for="name">Nome:</label> <!--Poderia ter sido feito cada linha em uma div. O que é o correto? -->
+                <input type="text" name="fullname" id="name" placeholder="seu nome completo" required>
+
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="digite um email valido" required>
+                <label for="psw"> - Senha:</label>
+                <input type="password" name="password" id="password" placeholder="insira uma senha" required>
+
+                <br>
+                <br>
+
+                <label for="birthday">Data de nascimento:</label>
+                <input type="date" name="birthday" id="birthday" required>
+                <label for="photo"> - Foto:</label>
+                <input type="file" name="photo" id="photo">
+        </div>
+
+        <br>
+        <div>
+            <label for="nationality">Nacionalidade: </label>
+            <select name="nationality" id="nationality" required>
+                <option value="brazilian" selected>Brasileira;</option>
+                <option value="american">Americana;</option>
+                <option value="ukrainian">Ukraniana;</option>
+                <option value="german">Alemã;</option>
+            </select>
+
+            - Gênero:
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">F</label>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">M</label>
+            <input type="radio" id="notgender" name="gender" value="notgender">
+            <label for="female">ND</label>
+
+            <p>Suas principais qualidades:<br>
+                <label for="intelligence">Inteligência </label>
+                <input type="checkbox" name="quality1" value="intelligence" id="intelligence">
+                <label for="resilience"> | Resiliência</label>
+                <input type="checkbox" name="quality2" value="resilience" id="resilience">
+                <label for="physical"> | Preparo físico</label>
+                <input type="checkbox" name="quality3" value="physical" id="physical">
+                <label for="politeness"> | Educação</label>
+                <input type="checkbox" name="quality4" value="politeness" id="politeness"> |
+            </p>
+        </div>
+
+        <div>
+            <textarea name="message" id="message" rows="10" cols="30"
+                placeholder="Porque você gostaria de ser um astronauta?"></textarea>
+            <br>
+            <br>
+            <input type="submit" class="btn" value="Criar">
+        </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
