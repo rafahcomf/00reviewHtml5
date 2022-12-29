@@ -462,6 +462,119 @@ Exercicio: Criando meu primeiro form.
 Criar um form semelhante ao mostrado na aula.
 Imagem de exemplo salva na pasta referente. 
 
+**27/12/22**
+
+Noovidades do HTML5:
+>Semântica melhor para as tags;
+>Tags para incluir áudio e vídeo;
+>Tags melhores para separar as partes do site (header, section, aside, footer);
+>Melhor tratamento para gráficos;
+>Novos tipos de input.
+
+Novas Tags do HMTL5:
+Tag de video:
+<video width="320" height="240" controls> 
+	<source src="movie.mp4" type="video/mp4">
+	<source src="video.ohh" type="video/ogg">
+Your browser does not support the video tag. **mensagem "alt" para erro**
+</video>
+
+(pode ser usado mais de um url para o mesmo vídeo, usando a a tag source src=)
+(controls se refere a mostrar controles de play, pause etc)
+(também podemos usar o atributo autoplay para a tag de video, eliminando o atributo controls: <video width="" height="" autoplay> e também o autoplay pode ser inserido com o atributo muted, para que não seja iniciado com som:
+<video width="" height="" autoplay muted>)
+
+Tag de audio:
+<audio controls>
+	<source src="horse.ogg" type="audio/ogg">
+	<source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element. **mensagem "alt" para erro**
+</audio>
+
+(pode ser usado mais de um url para o mesmo audio, usando a a tag source src=)
+(controls se refere a mostrar controles de play, pause etc)
+
+**os atributos de autoplay e muted podem ser usados também para as tags de audio.**
+
+Novos tipos de input:
+<input type="url">
+Se a Url não estiver no formato correto, não permite o submit;
+
+<input type="range" min="1" max="10">
+como se fosse uma barrinha de volume.
+
+<input type="time">
+tempo, alem da data;
+
+<input type="search" list="weapons">
+	<datalist id="weapons" style="display:hidden;">
+		<option value="sword">
+		<option value="axe">
+		<option value="wade">
+	</datalist>
+Basicamente o input search é ultilizado com datalist, pode ser usado como autocomplete de busca.
+
+boa lista com as novas tags:
+https://www.webfx.com/archive/blog/images/assets/cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html
+
+Refactoring: 
+***ELEMENTOS SEMANTICOS DO HTML5***
+Pesquisar mais em: 
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+O que é Semântica?
+Semântica é o estudo do significado das palavras e frases em um idioma.
+
+O que são Elementos Semânticos?
+São elementos com um significado.
+São Tags mais semanticas que, ao ler, já se entende o que o "programador" quis fazer com estes elementos.
+
+Alguns elementos semânticos:
+
+
+<header> Tudo o que fica no topo do site, cabeçalho da página, logotipo ou icone e informações de autoria.</header>
+**segundo o w3schools o header pode ser usado também dentro de um <article> para definir seu titulo e chamada**
+
+<nav> Barra com links de navegação, menus.</nav>
+**nem todos os lins de um documento devem estar dentro do <nav>. O elemento <nav> destina-se apenas aos principais blocos de links de naveção. Navegadores como leitores de tela para usuários desativados, podem usar esse elemento para determinar se devem omitir a renderização inicial deste conteúdo.**
+
+<aside> Pequenos textos na lateral do site, em um quadrante.</aside>
+**o conteúdo inserido em <aside> deve estar indiretamente relacionado ao conteúdo circundante, como um apendice, explicando sobre um local que foi mencionado no conteúdo "principal.**
+
+<section>Define a seção de um documento.</section>
+**Não existem definições em regras ou convenções para uso de <section> e <article>, porém existe o entendimento de que o <section> é uma versão mais semântica da <div>. Pensando na semântica, uma <section> será um elemento que não faria sentido por si só, se retirado do restante do contexto. Cada <section> deve ser identificado, geralmente incluindo um cabeçalho <h1> - <h6> como um filho do elemento. Não se deve usar usar como um container genérico, para isso usamos a <div>.**
+
+
+<article> Um artigo isolado, textos, publicações de forum, posts de blogs, artigos de News. </article>
+**pode ser um conteúdo dependente ou indenpente do restante do site. Um artico deve fazer sentido por si só e deve ser possível distribui-lo idenpendentemente do restante do site.**
+
+<footer> Rodapé da página </footer>
+
+elementos não semanticos, exmeplo: <div> e <span>: não dizem nada sobre seu conteúdo;
+
+Exercicio Final - Módulo HTML 5 - Criando um site completo.
+Criando um site inspirado na spaceX;
+
+Utilizar os textos grandes como loren ipsilum;
+São 3 paginas interligadas;
+
+Ao clicar no logo, volta para o inicio do site;
+
+Pagina 1: explicação da empresa e serviços prestados, bem como tabela de preços;
+
+Pagina 2: Mostra as aeronaves disponives;
+
+Pagina 3: contratenos: fale conosco, hire us.
+
+
+
+
+
+
+ 
+
+
 
 
 
