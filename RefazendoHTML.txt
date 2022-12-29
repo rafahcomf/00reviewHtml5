@@ -568,26 +568,3 @@ Pagina 1: explicação da empresa e serviços prestados, bem como tabela de pre�
 Pagina 2: Mostra as aeronaves disponives;
 
 Pagina 3: contratenos: fale conosco, hire us.
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
