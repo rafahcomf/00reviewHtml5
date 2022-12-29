@@ -225,6 +225,8 @@ tag a = anchor.
 
 Ao usar imagens, ela podem ser hospedadas localmente ou em um servidor de livre acesso na internet, como google, wikipédia e afins.
 
+Para usar imagens hospedadas localmente, de forma mais rapida e assertiva, devemos utilizar o ./ (ponto barra) para buscar a imagem armazenada dentro do pc.
+
 Para saber mais sobre os atributos, podemos procurar na documentação do MDN ou do W3SCHOOLS.
 
 Para linkar paginas entre si, utilizamos o mesmo processo, sempre apontando no texto do link, para onde o usuário será direcionado.
